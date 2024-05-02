@@ -24,7 +24,7 @@ This README provides instructions on how to run `signature_detect.php` and gener
 3. **Run the Script**:To run the script and generate the JSON data, follow these steps:
 
     call the api-> Use a tool or write a script to call the `signature_detect.php` API endpoint. Send the POST request with the data in raw JSON format.
-
+ ```json
    {
        "sign": "<base64_image_data>",
        "uniquenumber": "<unique_text>"
