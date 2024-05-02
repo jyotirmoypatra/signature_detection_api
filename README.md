@@ -8,6 +8,7 @@ This README provides instructions on how to run `signature_detect.php` and gener
 - Web server environment (e.g., Apache, Nginx) for running PHP scripts
 - Basic understanding of PHP and web server configurations
 - Python installed on your system (for executing `run.py`)
+- tensorflow and keras must be install after installing python 
 
 ## Files Included
 
