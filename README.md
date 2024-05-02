@@ -21,20 +21,10 @@ This README provides instructions on how to run `signature_detect.php` and gener
 
 2. **Setup Web Server**: Ensure your web server environment is set up and running. Place all the files (`signature_detect.php`, `keras_model.h5`, and `run.py`) in the appropriate directory accessible by your server.
 
-3. **Run the Script**: Access the `signature_detect.php` script through a web browser or command line using PHP. Follow the appropriate method based on your server setup.
+3. **Run the Script**:To run the script and generate the JSON data, follow these steps:
 
-   - Through Web Browser: Open your web browser and navigate to the URL where `signature_detect.php` is located. For example, if the script is in your local web server directory, you might access it at `http://localhost/signature_detect.php`.
+    call the api-> Use a tool or write a script to call the `signature_detect.php` API endpoint. Send the POST request with the data in raw JSON format.
 
-   - Through Command Line: Navigate to the directory where `signature_detect.php` is located using the terminal or command prompt. Execute the script using the following command:
-     ```
-     php signature_detect.php
-     ```
-
-4. **Provide Inputs**: Follow the prompts or provide inputs as required by the script. You may need to provide the base64 image data and a unique text for signature verification.
-
-5. **JSON Output**: The script will generate a JSON object containing the base64 image data and the unique number. The JSON structure will be as follows:
-
-   ```json
    {
        "sign": "<base64_image_data>",
        "uniquenumber": "<unique_text>"
