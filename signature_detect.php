@@ -36,7 +36,7 @@ if ($signatureBase64String != '') {
     $acc = json_encode(['uniquenumber' => $uniquenumber],true);
 
   
-    $output = shell_exec("python3 t3.py '$acc'  2>&1");
+    $output = shell_exec("python3 run.py '$acc'  2>&1");
     if ($output === null) {
       
         echo json_encode(['status' => 'error', 'msessage' => 'Error! It appears that no signature is detected in this image. Are you sure you want to continue with this image?']);
