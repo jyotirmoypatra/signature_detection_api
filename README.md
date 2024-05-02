@@ -7,19 +7,19 @@ This README provides instructions on how to run `signature_detect.php` and gener
 - PHP installed on your system
 - Web server environment (e.g., Apache, Nginx) for running PHP scripts
 - Basic understanding of PHP and web server configurations
-- Python installed on your system (for executing `t3.py`)
+- Python installed on your system (for executing `run.py`)
 
 ## Files Included
 
 - `signature_detect.php`: PHP script for signature detection.
 - `keras_model.h5`: Pre-trained Keras model for signature detection.
-- `t3.py`: Python script for additional processing (if needed).
+- `run.py`: Python script for additional processing (if needed).
 
 ## Instructions
 
-1. **Download the Files**: Obtain the necessary files including `signature_detect.php`, `keras_model.h5`, and `t3.py`.
+1. **Download the Files**: Obtain the necessary files including `signature_detect.php`, `keras_model.h5`, and `run.py`.
 
-2. **Setup Web Server**: Ensure your web server environment is set up and running. Place all the files (`signature_detect.php`, `keras_model.h5`, and `t3.py`) in the appropriate directory accessible by your server.
+2. **Setup Web Server**: Ensure your web server environment is set up and running. Place all the files (`signature_detect.php`, `keras_model.h5`, and `run.py`) in the appropriate directory accessible by your server.
 
 3. **Run the Script**: Access the `signature_detect.php` script through a web browser or command line using PHP. Follow the appropriate method based on your server setup.
 
